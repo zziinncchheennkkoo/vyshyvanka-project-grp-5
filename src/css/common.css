@@ -4,6 +4,11 @@ body {
   background-color: #1c2225;
 }
 
+.section-paddings{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .container {
   min-width: 320px;
   max-width: 375px;
@@ -16,12 +21,22 @@ body {
     max-width: 768px;
     padding: 0 32px;
   }
+  .section-paddings{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
     padding: 0 50px;
+  }
+
+  
+  .section-paddings{
+    padding-top: 75px;
+    padding-bottom: 75px;
   }
 }
 

@@ -1,4 +1,102 @@
-/* это просто заглушка */
-.header {
-  padding: 20px 0;
+.main{
+    flex-grow: 1;
+}
+
+
+/*=========TESTIMONIALS===========*/
+.hidden-testimonials-mob,
+.hidden-testimonials-tablet{
+    display: none;
+}
+
+.title-testimonials{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.375;
+    letter-spacing: -0.03em;
+    color: #fcf9f9;
+    text-align: start;
+    margin-bottom: 40px;
+}
+.subtitle-testimonials{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    color: #fcf9f9;
+}
+
+.text-testimonials{
+    font-size: 14px;
+    text-align: center;
+}
+
+.item-testimonials{
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    border-radius: 4px;
+    padding: 0px 22px 18px 22px;
+    max-width: 100%;
+    position: relative;
+    z-index: 1;
+
+}
+
+.img-testimonials{
+    border-radius: 100%;
+    box-shadow: 0 1px 4px 0 rgba(16, 24, 40, 0.06);
+    margin-bottom: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 2;
+    margin-top: -24px;
+
+}
+
+/*=================TABLET=================*/
+@media screen and (min-width:768px) {
+   
+    
+    .hidden-testimonials-mob{
+        display:block;
+    }
+
+    .text-testimonials{
+        font-size: 16px;
+    }
+    .title-testimonials{
+        font-size: 44px;
+        line-height: 1.45;
+    }
+
+    .first-list-testimonials{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 32px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .item-testimonials{
+        padding: 0px 18px 18px 18px;
+        max-width: 336px;
+    }
+    
+}
+
+/*===============DESKTOP=======================*/
+
+@media screen and (min-width:1280px) {
+    .hidden-testimonials-tablet{
+        display: block;
+    }
+
+    .item-testimonials{
+        max-width: 376px;
+    }
+
+    .first-list-testimonials{
+        column-gap: 26px;
+    }
 }
