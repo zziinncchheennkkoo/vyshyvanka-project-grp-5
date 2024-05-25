@@ -6,17 +6,26 @@ h4,
 h5,
 h6,
 p {
-  margin: 0;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
-p:last-child {
+/* p:last-child {
   margin-bottom: 0;
+} */
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 a {
@@ -26,10 +35,4 @@ a {
 
 button {
   cursor: pointer;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
