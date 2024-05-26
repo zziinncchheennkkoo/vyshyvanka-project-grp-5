@@ -1,4 +1,123 @@
-/* это просто заглушка */
-.header {
-  padding: 20px 0;
+/*========about-us=========*/
+
+.container {
+  min-width: 320px;
+  max-width: 375px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.about-us {}
+
+.about-us-section {
+  padding: 40px 0;
+}
+
+.png {
+  background-image: url();
+}
+
+.about-us-div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.about-us-div-text {}
+
+.about-us-title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.375;
+  letter-spacing: -0.03em;
+  color: #fcf9f9;
+  margin-bottom: 40px;
+}
+
+.about-us-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-us-item {
+  max-width: 335px;
+}
+
+.about-us-text {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.04em;
+  color: rgba(252, 249, 249, 0.4);
+}
+
+.about-us-thumb {
+  position: relative;
+  overflow: hidden;
+}
+
+.about-us-img {}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+
+  .about-us-section {
+    padding: 50px 0;
+  }
+
+  .about-us-div {
+    gap: 40px;
+  }
+
+  .about-us-title {
+    font-size: 44px;
+    line-height: 1.45455;
+  }
+
+  .about-us-item {
+    max-width: 704px;
+  }
+
+  .about-us-text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 50px;
+  }
+
+  .about-us-section {
+    padding: 75px 0;
+  }
+
+  .about-us-title {
+    font-size: 44px;
+    line-height: 1.45455;
+  }
+
+  .about-us-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  .about-us-item {
+    max-width: 536px;
+  }
+
+  .about-us-text {
+    font-size: 16px;
+  }
 }
