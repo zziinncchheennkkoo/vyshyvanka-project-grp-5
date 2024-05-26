@@ -1,3 +1,30 @@
-<div>
-  <p>ЗАГЛУШКА HERO</p>
-</div>
+<section class="hero-page">
+  <div class="container">
+    <div class="hero-order">
+      <div class="hero-info item" id="item1">
+        <h1 class="hero-title">Reviving the traditional <span class="hero-title-span">Ukrainian</span> artistry in every
+          stitch.</h1>
+        <button class="hero-button" type="button" href="/index.html#Your order">ORDER
+          <svg class="hero-button-icon" width="24" height="16">
+            <use href="/img/icons.svg#icon-arrow"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="hero-star item" id="item2">
+        <svg class="hero-star-icon" width="52" height="51">
+          <use href="/img/icons.svg#icon-star-yellow"></use>
+        </svg>
+        <p class="hero-star-text">all embroidery is made by hand</p>
+      </div>
+      <picture>
+        <source media="(min-width: 1280px)"
+          srcset="/img/hero/desktop-girl-hero.jpg 1x, /img/hero/desktop-girl-hero@2x.jpg 2x">
+        <source media="(min-width: 768px)"
+          srcset="/img/hero/tablet-girl-hero.jpg 1x, /img/hero/tablet-girl-hero@2x.jpg 2x">
+        <source media="(max-width: 767px)"
+          srcset="/img/hero/mobile-girl-hero.jpg 1x, /img/hero/mobile-girl-hero@2x.jpg 2x">
+        <img class="hero-img item" id="item3" src="/img/hero/desktop-girl-hero.jpg" alt="photo's girl" />
+      </picture>
+    </div>
+  </div>
+</section>

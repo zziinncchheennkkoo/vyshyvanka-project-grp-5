@@ -1,4 +1,184 @@
-/* это просто заглушка */
-.header {
-  padding: 20px 0;
+.hero-page {
+  margin-top: 84px;
+  margin-bottom: 80px;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero-title {
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 1.09;
+  letter-spacing: -0.03em;
+  color: #fcf9f9;
+}
+
+.hero-title-span {
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 1.09;
+  letter-spacing: -0.03em;
+  color: #ecd979;
+}
+
+.hero-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 15px;
+  padding: 14px 36px;
+  width: 154px;
+  height: 49px;
+  background-color: transparent;
+  margin-bottom: 40px;
+  margin-left: 70px;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #fcf9f9;
+}
+
+.hero-button:hover .hero-button:focus {
+  border: 1px solid #ecd979;
+  border-radius: 15px;
+  padding: 14px 36px;
+  width: 154px;
+  height: 49px;
+}
+
+.hero-star {
+  display: none;
+}
+
+.hero-star-text {
+  font-size: 16px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: rgba(252, 249, 249, 0.4);
+  width: 115px;
+}
+
+.hero-img {
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: url('path_to_image');
+}
+
+@media screen and (min-width: 768px) {
+  .hero-page {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .hero-order {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 46px;
+  }
+
+  .hero-info {
+    gap: 40px;
+    max-width: 549px;
+  }
+
+  .hero-title {
+    font-size: 54px;
+    line-height: 1.19;
+  }
+
+  .hero-title-span {
+    font-size: 54px;
+    line-height: 1.19;
+  }
+
+  .hero-button {
+    margin-bottom: 0px;
+    margin-left: 141px;
+    font-size: 16px;
+    border-radius: 15px;
+    padding: 14px 39px;
+    width: 168px;
+    height: 50px;
+  }
+
+  .hero-button:hover .hero-button:focus {
+    font-size: 16px;
+    padding: 14px 39px;
+    width: 168px;
+    height: 50px;
+  }
+
+  .hero-star {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    width: 115px;
+    height: 111px;
+    margin-top: 16px;
+  }
+
+  .hero-star-text {
+    font-size: 16px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: rgba(252, 249, 249, 0.4);
+    width: 115px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-page {
+    margin-top: 100px;
+    margin-bottom: 150px;
+  }
+
+  .hero-order {
+    flex-wrap: nowrap;
+    gap: 40px;
+  }
+
+  #item1 {
+    order: 2;
+  }
+
+  #item2 {
+    order: 3;
+  }
+
+  #item3 {
+    order: 1;
+  }
+
+  .hero-info {
+    max-width: 518px;
+    height: 282px;
+    margin-top: 94px;
+  }
+
+  .hero-button {
+    margin-bottom: 0px;
+    margin-left: 141px;
+    font-size: 16px;
+    border-radius: 15px;
+    padding: 14px 39px;
+    width: 168px;
+    height: 50px;
+  }
+
+  .hero-star {
+    margin-left: 75px;
+    margin-top: 14px;
+  }
 }
