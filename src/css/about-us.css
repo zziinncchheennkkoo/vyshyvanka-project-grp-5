@@ -7,15 +7,21 @@
   margin: 0 auto;
 }
 
-.about-us {}
+.about-us {
+}
 
 .about-us-section {
   padding: 40px 0;
 }
 
 .png {
-  background-image: url();
+  background-image: url("/img/background/ornament-bg-grey.png");
+  background-repeat: no-repeat;
+  background-size: 459px 408px;
+  background-position-x: 125px;
+  background-position-y: 560px;
 }
+
 
 .about-us-div {
   display: flex;
@@ -23,9 +29,11 @@
   justify-content: flex-start;
   flex-direction: column;
   gap: 50px;
+  height: 1019px;
 }
 
-.about-us-div-text {}
+.about-us-div-text {
+}
 
 .about-us-title {
   font-weight: 500;
@@ -58,14 +66,24 @@
 .about-us-thumb {
   position: relative;
   overflow: hidden;
+  border-radius: 4px;
 }
 
-.about-us-img {}
+.about-us-img {
+}
 
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
     padding: 0 32px;
+  }
+
+  .png {
+    background-image: url("/img/background/ornament-bg-grey.png");
+    background-repeat: no-repeat;
+    background-size: 545px 484px;
+    background-position-x: 405px;
+    background-position-y: 450px;
   }
 
   .about-us-section {
@@ -95,6 +113,14 @@
     max-width: 1280px;
     padding: 0 50px;
   }
+
+ .png {
+   background-image: url("/img/background/ornament-bg-grey.png");
+   background-repeat: no-repeat;
+   background-size: 545px 484px;
+   background-position-x: 870px;
+   background-position-y: 400px;
+ }
 
   .about-us-section {
     padding: 75px 0;
